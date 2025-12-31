@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.2.7">
+  <diagram name="Page-1" id="klHVmWINVfgy5AOZILaD">
+    <mxGraphModel dx="1410" dy="890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BfMRey_T8dRWvqxP3_x2-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="540" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="BfMRey_T8dRWvqxP3_x2-2" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="555" y="500" as="sourcePoint" />
+            <mxPoint x="554.5" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BfMRey_T8dRWvqxP3_x2-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Sistem" vertex="1">
+          <mxGeometry height="60" width="120" x="660" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="BfMRey_T8dRWvqxP3_x2-4" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.4;entryY=0.933;entryDx=0;entryDy=0;entryPerimeter=0;" target="BfMRey_T8dRWvqxP3_x2-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="310" />
+              <mxPoint x="710" y="300" />
+            </Array>
+            <mxPoint x="710" y="330" as="sourcePoint" />
+            <mxPoint x="890" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BfMRey_T8dRWvqxP3_x2-5" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="700" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="BfMRey_T8dRWvqxP3_x2-6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="BfMRey_T8dRWvqxP3_x2-5" value="Mulai">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="335" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BfMRey_T8dRWvqxP3_x2-7" edge="1" parent="1" source="BfMRey_T8dRWvqxP3_x2-5" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" value="Menu soal">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BfMRey_T8dRWvqxP3_x2-8" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="BfMRey_T8dRWvqxP3_x2-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="710" y="440" as="sourcePoint" />
+            <mxPoint x="890" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BfMRey_T8dRWvqxP3_x2-9" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" value="Pilih tingkat kesulitan">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="560" y="440" as="sourcePoint" />
+            <mxPoint x="710" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BfMRey_T8dRWvqxP3_x2-10" parent="1" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;" value="Player" vertex="1">
+          <mxGeometry height="30" width="260" x="140" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="BfMRey_T8dRWvqxP3_x2-11" parent="1" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="302" width="260" x="140" y="238" as="geometry" />
+        </mxCell>
+        <mxCell id="BfMRey_T8dRWvqxP3_x2-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Start" vertex="1">
+          <mxGeometry height="30" width="60" x="180" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="BfMRey_T8dRWvqxP3_x2-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="150" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="BfMRey_T8dRWvqxP3_x2-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="149" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="BfMRey_T8dRWvqxP3_x2-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Sistem menampilkan kategori quiz" vertex="1">
+          <mxGeometry height="30" width="212" x="160" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="BfMRey_T8dRWvqxP3_x2-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="149" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="BfMRey_T8dRWvqxP3_x2-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="149" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="BfMRey_T8dRWvqxP3_x2-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="End" vertex="1">
+          <mxGeometry height="30" width="60" x="187.5" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="BfMRey_T8dRWvqxP3_x2-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Sistem menampilkan pertanyaan" vertex="1">
+          <mxGeometry height="30" width="212" x="160" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="BfMRey_T8dRWvqxP3_x2-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="150" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="BfMRey_T8dRWvqxP3_x2-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Player memilih kategori quiz" vertex="1">
+          <mxGeometry height="30" width="212" x="160" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="BfMRey_T8dRWvqxP3_x2-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" value="" vertex="1">
+          <mxGeometry height="10" width="55" x="677.5" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="BfMRey_T8dRWvqxP3_x2-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="menampilkan pertanyaan" vertex="1">
+          <mxGeometry height="20" width="130" x="567" y="467" as="geometry" />
+        </mxCell>
+        <mxCell id="BfMRey_T8dRWvqxP3_x2-24" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="697" y="490" as="sourcePoint" />
+            <mxPoint x="560" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
